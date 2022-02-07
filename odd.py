@@ -1,11 +1,3 @@
-from os import getcwd
-import sys
-import os
-import time
-
-print(sys.version)
-print(os.getenv('APPDATA'))
-print(time.strftime("%I : %M %p %A"))
 from datetime import datetime
 import time
 import random
@@ -25,7 +17,9 @@ for i in range(5):
     print(wait_time)
     time.sleep(wait_time)
 
-name = 'John'
-print(f'''hfjfkhkf
-gjgjg
-hghkg{name}''')
+print(time.strftime("%I : %M %p %A"))
+
+name = 'Абдул'
+print(f'''Жил да был,
+в ус не дул,
+проблем не знал паренек по имени {name}''')

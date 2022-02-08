@@ -17,7 +17,7 @@ for i in range(5):
     print(wait_time)
     time.sleep(wait_time)
 
-print(time.strftime("%I : %M %p %A"))
+print(time.strftime("%I : %M %p %A")) #часы : минуты am/pm день недели
 
 name = 'Абдул'
 print(f'''Жил да был,
